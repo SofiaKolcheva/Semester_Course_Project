@@ -50,12 +50,6 @@ A console application written in C for maintaining student records, modelled on 
 
 Student records are stored in a binary file. Because each record has a fixed size, the whole list can be written and read in a single operation, which keeps file handling simple and fast.
 
-## Build and Run
-
-```bash
-gcc -Wall -Wextra -o e_student main.c
-./e_student
-```
 
 ## Concepts Demonstrated
 
@@ -64,7 +58,3 @@ gcc -Wall -Wextra -o e_student main.c
 - String handling and safe input
 - Input validation (dates, ranges, uniqueness)
 - Modular program design with functions
-
-## Author
-
-Developed as a university assignment at the Technical University of Sofia.
